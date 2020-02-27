@@ -1,29 +1,9 @@
-<h1 align="center">
-  <a href="http://doc.cms.7yue.pro/">
-  <img src="http://doc.cms.7yue.pro/left-logo.png" width="250"/></a>
-  <br>
-  Lin-CMS-Koa
-</h1>
-
-<h4 align="center">一个简单易用的CMS后端项目 | <a href="http://doc.cms.7yue.pro/" target="_blank">Lin-CMS-Koa</a></h4>
-
-<p align="center">
-  <a href="http://flask.pocoo.org/docs/1.0/" rel="nofollow">
-  <img src="https://img.shields.io/badge/koa-2.7.0-green.svg" alt="flask version" data-canonical-src="https://img.shields.io/badge/koa-2.7.0-green.svg" style="max-width:100%;"></a>
-  <a href="https://pypi.org/project/Lin-CMS/" rel="nofollow"><img src="https://img.shields.io/badge/lin--mizar-0.1.1-green.svg" alt="lin-cms version" data-canonical-src="https://img.shields.io/badge/lin--cms--test-0.0.1--alpha8-red.svg" style="max-width:100%;"></a>
-  <a href="http://doc.cms.7yue.pro/" rel="nofollow"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="LISENCE" data-canonical-src="https://img.shields.io/badge/license-MIT-lightgrey.svg" style="max-width:100%;"></a>
-</p>
-
-<blockquote align="center">
-  <em>Lin-CMS</em> 是林间有风团队经过大量项目实践所提炼出的一套<strong>内容管理系统框架</strong>。<br>
- Lin-CMS 可以有效的帮助开发者提高 CMS 的开发效率。
-</blockquote>
-
-<p align="center">
-  <a href="#简介">简介</a>&nbsp;|&nbsp;<a href="#快速开始">快速开始</a>&nbsp;|&nbsp;<a href="#下个版本开发计划">下个版本开发计划</a>
-</p>
 
 ## 简介
+
+### 项目介绍
+
+本项目基于林间有风团队[Lin CMS](https://github.com/TaleLin/lin-cms-koa.git)上二次开发，实现开箱即用，好用的框架，在lin-cms上集成了用户令牌管理，微信体系模块，包括授权,支付,模板消息等模块
 
 ### 什么是 Lin CMS？
 
@@ -31,37 +11,15 @@ Lin-CMS 是林间有风团队经过大量项目实践所提炼出的一套**内�
 架**。Lin-CMS 可以有效的帮助开发者提高 CMS 的开发效率。
 
 本项目是 Lin CMS 后端的 koa 实现，需要前端？请访
-问[前端仓库](https://github.com/TaleLin/lin-cms-vue)。
+问
 
-### 当前最新版本
 
-lin-mizar(核心库) ：0.2.0-beta.2
+### 参考文档地址
+[liu-cms文档](http://doc.cms.7yue.pro/)。
 
-lin-cms-koa(当前示例工程)：0.2.0-beta.1
+[lin-cms-vue前端仓库](https://github.com/TaleLin/lin-cms-vue)。
 
-### 文档地址
-
-[http://doc.cms.7yue.pro/](http://doc.cms.7yue.pro/)
-
-### 线上 demo
-
-[http://face.cms.7yue.pro/](http://face.cms.7yue.pro/)
-
-### QQ 交流群
-
-QQ 群号：643205479
-
-<img class="QR-img" width="258" height="300" src="http://imglf3.nosdn0.126.net/img/Qk5LWkJVWkF3Nmdyc2xGcUtScEJLOVV1clErY1dJa0FsQ3E1aDZQWlZHZ2dCbSt4WXA1V3dRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
-
-### 微信公众号
-
-微信搜索：林间有风
-
-<img class="QR-img" src="http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdlNThuRmI4TFh3UWhiNmladWVoaTlXUXpicEFPa1F6czFNYkdmcWRIbGRRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-
-### Lin CMS 的特点
-
-Lin CMS 的构筑思想是有其自身特点的。下面我们阐述一些 Lin 的主要特点。
+[sequelize-v5](https://sequelize.org/v5/)。
 
 #### Lin CMS 是一个前后端分离的 CMS 解决方案
 
