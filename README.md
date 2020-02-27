@@ -1,6 +1,14 @@
 
 ## 简介
 
+### 项目启动
+
+- clone 该项目
+- cd koa2-cms-server
+- 修改config/secure.js里的db配置，改为自己的数据库相关配置
+- npm install
+- npm run start:dev
+
 ### 项目介绍
 
 本项目基于林间有风团队[Lin CMS](https://github.com/TaleLin/lin-cms-koa.git)上二次开发，实现开箱即用，好用的框架，在lin-cms上集成了用户令牌管理，微信体系模块，包括授权,支付,模板消息等模块
